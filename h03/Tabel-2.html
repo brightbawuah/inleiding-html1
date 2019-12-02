@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+    <title>Tabel-2</title>
+    <style>
+        table, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td {padding: 10px;
+        }
+        td.centered {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<h1 style="font-family: Arial">Tabel 2</h1>
+<table>
+    <tr>
+        <td rowspan="2" class="centered">State of Health</td>
+        <td colspan="2" class="centered">Fasting Value</td>
+        <td colspan="1" class="centered">After Eating</td>
+    </tr>
+    <tr>
+        <td class="centered">Minimum</td>
+        <td class="centered">Maximum</td>
+        <td class="centered">2 hours after eating</td>
+    </tr>
+    <tr>
+        <td class="centered">Healthy</td>
+        <td class="centered">70</td>
+        <td class="centered">100</td>
+        <td class="centered">Less than 140</td>
+    </tr>
+    <tr>
+        <td class="centered">Pre-Diabetes</td>
+        <td class="centered">101</td>
+        <td class="centered">126</td>
+        <td class="centered">140 to 200</td>
+    </tr>
+    <tr>
+        <td class="centered">Diabetes</td>
+        <td class="centered">More than 126</td>
+        <td class="centered">N/A</td>
+        <td class="centered">More than 200</td>
+    </tr>
+</table>
+</body>
+</html>
