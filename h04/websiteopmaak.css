@@ -1,4 +1,39 @@
 body{
-    background-color:rebeccapurple;
-    color: black;
+    font-family: "Arial", "sans-serif";
+}
+nav {
+    background-color: black;
+    padding: 10px;
+}
+nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding-right: 5px;
+    border-right: 2px solid white;
+}
+div.wrapper {
+    width: 960px;
+    margin: auto;
+}
+article {
+    float: left;
+    width: 50%;
+    margin-right: 30px;
+}
+table {
+    width:46%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+td {
+    padding: 10px;
+    border: 1px solid black;
+}
+td.groen {
+    background-color:mediumaquamarine;
+}
+td.blauw {
+    background-color: aqua;
 }
