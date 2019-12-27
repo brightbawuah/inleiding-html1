@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulier</title>
+    <link rel="stylesheet" type="text/css" href="Formulier.css">
+</head>
+<body>
+
+<form action="http://www.savatarian.com/html5/form.php" method="post">
+
+    <h1>Voorbeeldformulier</h1>
+
+    <label for="voornaam">Voornaam</label>
+    <input class="textinputs" type="text" name="voornaam" id="voornaam">
+
+    <label for="tussenvoegsel">Tussenvoegsel</label>
+    <input class="textinputs" type="text" name="tussenvoegsel" id="tussenvoegsel">
+
+    <div class="eten">
+        <input type="checkbox">
+        <label>Aardappelen</label>
+    </div>
+
+    <label for="achternaam">Achternaam</label>
+    <input class="textinputs" type="text" name="achternaam" id="achternaam">
+
+    <div class="eten">
+        <input type="checkbox">
+        <label>Hamburger</label>
+    </div>
+
+    <label>Geslacht</label>
+    <div id="geslacht">
+        <input type="radio" name="geslacht" value="m">
+        <label>Man</label>
+        <input type="radio" name="geslacht" value="v">
+        <label>Vrouw</label>
+    </div>
+
+
+
+    <label>Kleur ogen</label>
+    <select class="selectinput" name="Geboortedatum">
+        <option>groen</option>
+        <option>blauw</option>
+        <option>bruin</option>
+    </select>
+
+
+    <label>Geboortedatum:</label>
+    <input id="datum" type="date">
+
+
+    <label>Lekker eten</label>
+    <div class="eten">
+        <input type="checkbox">
+        <label>Sperziebonen</label>
+    </div>
+
+    <label>Omschrijving</label>
+    <textarea id="tekstvak">
+    </textarea>
+
+    <section id="buttons">
+    <button type="button">Annuleer</button>
+    <input id="OK" type="submit" value="OK">
+    </section>
+
+    <a href="http://localhost:63342/inleiding-html/index.html?_ijt=kibv1s49jqrls76jancjtdf3in" id="link">Terug</a>
+</form>
+</body>
+</html>

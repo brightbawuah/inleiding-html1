@@ -1,0 +1,159 @@
+* {
+    margin: 10px;
+    align-self: center;
+}
+
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 16% 34% 10% 40%;
+}
+
+h1 {
+    grid-column: 1/5;
+    font-size: 30px;
+}
+
+
+.eten {
+    display: flex;
+    grid-column: 4/5;
+}
+
+.textinputs {
+    width: 300px;
+    border: solid 1px cornflowerblue;
+}
+
+.selectinput {
+    grid-row-start: 6;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    width: 150px;
+    border: solid 1px cornflowerblue;
+}
+
+#datum {
+    grid-row-start: 7;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    width: 150px;
+    border: solid 1px cornflowerblue;
+}
+
+label[for=tussenvoegsel]{
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+input[name=tussenvoegsel]{
+    grid-row-start: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+
+label[for=achternaam]{
+    grid-row-start: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+input[name=achternaam]{
+    grid-row-start: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+label:nth-of-type(4){
+    grid-row-start: 5;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#geslacht{
+    grid-row-start: 5;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+label:nth-of-type(5){
+    grid-row-start: 6;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+
+label:nth-of-type(6){
+    grid-row-start: 7;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+select[name=kleur-ogen]:first-of-type{
+    grid-row-start: 6;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+select[name=kleur-ogen]:last-of-type{
+    grid-row-start: 7;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+label:nth-of-type(7){
+    grid-row-start: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+
+/*.selectinputs:first-of-type{*/
+/*    grid-column-start: 1;*/
+/*    grid-column-end: 2;*/
+/*    grid-row-start: 5;*/
+
+/*}*/
+
+label:last-of-type{
+    grid-row-start: 8;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    align-self: start;
+}
+textarea {
+    grid-row-start: 8;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    width: 350px;
+    height: 150px;
+    border: solid 1px cornflowerblue;
+}
+
+
+button {
+    width: 120px;
+    height: 30px;
+}
+
+#buttons {
+    grid-row-start: 9;
+    grid-column-start: 4;
+}
+#OK {
+    width: 120px;
+    height: 30px;
+}
+#link {
+    grid-row-start: 9;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
