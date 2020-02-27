@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e14c8ea4-84d7-492a-8c30-94a897abf2f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Responsive.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/truemusic.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../h08/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/h01/Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/../h01/Test.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +23,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -49,10 +48,22 @@
       <option name="presentableId" value="Default" />
       <updated>1580371436402</updated>
       <workItem from="1580371437987" duration="10000" />
+      <workItem from="1582792598811" duration="30000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
